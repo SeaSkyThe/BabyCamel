@@ -1,0 +1,4 @@
+(executable
+ (public_name BabyCaml)
+ (name main)
+ (libraries BabyCaml))
