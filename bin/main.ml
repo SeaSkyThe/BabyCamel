@@ -46,3 +46,21 @@ let () = Printf.printf "\nResult: "
 let result_list = BabyCaml.Lists_exercises.remove_kth 1 original_list
 let () = List.iter (Printf.printf "%s ") result_list
 let () = Printf.printf "\n\n\n"
+
+(* Duplicate the Elements of a List *)
+let original_list = [ "a"; "b"; "c"; "d" ]
+let () = Printf.printf "\n\n\n5 - Duplicate the Elements of a List: "
+let () = List.iter (Printf.printf "%s ") original_list
+let () = Printf.printf "\nResult: "
+let result_list = BabyCaml.Lists_exercises.duplicate original_list
+let () = List.iter (Printf.printf "%s ") result_list
+let () = Printf.printf "\n\n\n"
+
+(* Palindrome *)
+(* let original_list = [ "a"; "b"; "c"; "d"; "c"; "b"; "a" ] *)
+(* let () = Printf.printf "\n\n\n6 - Palindrome: " *)
+(* let () = List.iter (Printf.printf "%s ") original_list *)
+(* let () = Printf.printf "\nResult: " *)
+(* let result_list = BabyCaml.Lists_exercises.palindrome original_list *)
+(* let () = Printf.printf "Is Palindrome? %b " result_list *)
+(* let () = Printf.printf "\n\n\n" *)

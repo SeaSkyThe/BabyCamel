@@ -35,3 +35,24 @@ let rec remove_kth k list =
   | [] -> []
   | h :: t -> if k = 0 then t else h :: remove_kth (k - 1) t
 ;;
+
+(* Duplicate the Elements of a List *)
+(* https://ocaml.org/exercises?difficulty_level=beginner#14 *)
+let rec duplicate l =
+  match l with
+  | [] -> []
+  | h :: t -> h :: h :: duplicate t
+;;
+
+(* Palindrome *)
+(* https://ocaml.org/exercises?difficulty_level=beginner#6 *)
+(* IM DUMB *)
+(* let rec palindrome l = *)
+(*   let reverse_l = rev l [] in *)
+(*   match l with *)
+(*   | [] -> true *)
+(*   | h :: t -> *)
+(*     (match reverse_l with *)
+(*      | [] -> false *)
+(*      | reverse_h :: _ -> reverse_h = h && palindrome t && ) *)
+(* ;; *)
